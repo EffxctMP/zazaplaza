@@ -1,8 +1,7 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "rules": "Server Rules",
+  "index": "Server",
+  "another": "Rules",
+  "advanced": "Server Info",
   "about": {
     "title": "About",
     "type": "page"
