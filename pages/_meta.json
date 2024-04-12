@@ -1,15 +1,4 @@
 {
   "index": "Server",
-  "another": "Rules",
-  "advanced": "Server Info",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
-  }
+  "another": "Rules"
 }
