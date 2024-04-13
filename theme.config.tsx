@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>🍃 ZaZa PlaZa server information</span>,
+  logo: <span>🍃 ZaZa PlaZa Server Information</span>,
   project: {
     link: 'https://github.com/shuding/nextra-docs-template',
   },
@@ -13,7 +13,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: '🍃 ZaZa PlaZa',
   },
-  primaryHue: 277
+  primaryHue: 100
 }
 
 export default config
