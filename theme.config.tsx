@@ -17,3 +17,16 @@ const config: DocsThemeConfig = {
 }
 
 export default config
+
+import { useRouter } from 'next/router'
+ 
+export default {
+  useNextSeoProps() {
+    const { asPath } = useRouter()
+    if (asPath !== '/') {
+      return {
+        titleTemplate: '%s – ZaZa PlaZa'
+      }
+    }
+  }
+}
