@@ -1,4 +1,6 @@
 import PropTypes from 'prop-types';
+import { Card, Cards } from 'fumadocs-ui/components/card';
+
 
 export const Card = ({ href, title, description }) => {
   return (
@@ -49,3 +51,11 @@ StyledCard.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };
+
+
+<MDX
+  components={{
+    Card: (props) => <Card {...props} />,
+    Cards: (props) => <Cards {...props} />,
+  }}
+/>
