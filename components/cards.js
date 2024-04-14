@@ -27,3 +27,21 @@ export const Cards = ({ children }) => {
 Cards.propTypes = {
   children: PropTypes.node.isRequired,
 };
+
+
+export function Card({ href, title, description }) {
+    const cardStyle = {
+      backgroundColor: '#f8f9fa',
+      border: '1px solid #e9ecef',
+      borderRadius: '0.25rem',
+      padding: '1rem',
+      margin: '1rem',
+    };
+  
+    return (
+      <a href={href} style={cardStyle}>
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </a>
+    );
+  }
