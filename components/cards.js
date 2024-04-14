@@ -1,8 +1,8 @@
-import { Card, Cards } from 'fumadocs-ui/components/card';
+import { Cards, Card } from 'nextra/components'
+import { CardsIcon, OneIcon, WarningIcon } from '../../icons'
 
-<MDX
-  components={{
-    Card: (props) => <Card {...props} />,
-    Cards: (props) => <Cards {...props} />,
-  }}
-/>
+<Cards>
+  <Card icon={<WarningIcon />} title="Callout" href="/docs/guide/built-ins/callout" />
+  <Card icon={<CardsIcon />} title="Tabs" href="/docs/guide/built-ins/tabs" />
+  <Card icon={<OneIcon />} title="Steps" href="/docs/guide/built-ins/steps" />
+</Cards>
